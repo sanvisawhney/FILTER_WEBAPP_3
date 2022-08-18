@@ -1,0 +1,23 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    border-radius: 20px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 3px 3px 38px blue;}
+    to{box-shadow: 3px 3px 38px white;}
+}
